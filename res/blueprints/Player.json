@@ -1,0 +1,45 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "spaceship-1.png",
+      "zdepth": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "animations":
+      {
+        "Blink": "spaceship-1.json"
+      },
+      "currentAnimation": "Blink"
+    },
+    "PlayerController":
+    {
+    },
+    "TileCollider":
+    {
+      "width": 8,
+      "height": 8
+    },
+    "AudioEmitter":
+    {
+      "soundBank":
+      {
+        "Shoot":
+        {
+          "sounds": ["Shoot"]
+        },
+        "Death":
+        {
+          "sounds": ["Death"]
+        },
+        "Overheat":
+        {
+          "sounds": ["Overheat"]
+        }
+      }
+    }
+  },
+
+  "thumb": "res/imgs/spaceship-1.png"
+}

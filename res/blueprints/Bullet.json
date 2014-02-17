@@ -1,0 +1,20 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "part-3.png",
+      "zdepth": 1,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "BulletController":
+    {
+    },
+    "TileCollider":
+    {
+      "width": 1,
+      "height": 1
+    }
+  }
+}

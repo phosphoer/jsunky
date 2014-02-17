@@ -1,0 +1,23 @@
+@font-face { font-family: Space; src: url( 'res/fonts/spaceage.ttf'); }
+
+body
+{
+  background-color : rgb(30,30,30);
+}
+
+canvas
+{
+    image-rendering: optimizeSpeed;             // Older versions of FF
+    image-rendering: -moz-crisp-edges;          // FF 6.0+
+    image-rendering: -webkit-optimize-contrast; // Webkit
+                                                //  (Safari now, Chrome soon)
+    image-rendering: optimize-contrast;         // Possible future browsers.
+    -ms-interpolation-mode: nearest-neighbor;   // IE
+}
+
+div.ui-dialog-titlebar
+{
+  height: 10px;
+  font-size: 14px;
+  line-height: 10px;
+}

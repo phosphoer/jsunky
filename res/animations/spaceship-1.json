@@ -1,0 +1,10 @@
+{
+  "imageURL": "spaceship-1-animated.png",
+  "frameWidth": 8,
+  "frameHeight": 8,
+  "frames":
+  [
+    {"frame": 0, "duration": 1},
+    {"frame": 1, "duration": 1}
+  ]
+}

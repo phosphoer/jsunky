@@ -1,0 +1,32 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "enemy-1.png",
+      "zdepth": 0,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "EnemyController":
+    {
+    },
+    "TileCollider":
+    {
+      "width": 8,
+      "height": 8
+    },
+    "AudioEmitter":
+    {
+      "soundBank":
+      {
+        "Death":
+        {
+          "sounds": ["Explosion"]
+        }
+      }
+    }
+  },
+
+  "thumb": "res/imgs/enemy-1.png"
+}

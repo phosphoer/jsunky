@@ -1,0 +1,26 @@
+{
+  "components":
+  {
+    "ParticleEmitter":
+    {
+      "imageURL": "part-1.png",
+      "zdepth": 2,
+      "loop": false,
+      "maxParticles": 50,
+      "spawnPerSecond": 400,
+      "spawnOffsetX": 0,
+      "spawnOffsetY": 0,
+      "spawnOffsetXSpread": 10,
+      "spawnOffsetYSpread": 10,
+      "spawnDirection": 0,
+      "spawnDirectionSpread": 6.28,
+      "spawnSpeed": 100,
+      "spawnSpeedSpread": 50,
+      "speedDecay": 0.9,
+      "speedDecaySpread": 0.1,
+      "alphaKeys": [{"time": 0, "val": 1}, {"time": 0.9, "val": 0.9}, {"time": 1, "val": 0}],
+      "particleLife": 1,
+      "particleLifeSpread": 0.5
+    }
+  }
+}
